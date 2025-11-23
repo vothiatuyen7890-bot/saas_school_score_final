@@ -1,0 +1,24 @@
+{
+  "name": "saas-school-score",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "migrate": "prisma migrate dev --name init"
+  },
+  "dependencies": {
+    "next": "13.x",
+    "react": "18.x",
+    "react-dom": "18.x",
+    "prisma": "^4.0.0",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.0",
+    "@prisma/client": "^4.0.0",
+    "chart.js": "^4.0.0",
+    "axios": "^1.4.0"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
